@@ -34,8 +34,13 @@ main{
    background-size: cover;
   /* background-color: var(--background-color); */
 }
+
+
+
+
+
 .contenedor{
-  background-color: #029ce6; 
+  background-color: #083f68; 
   background-image: url("/img/fondo1.jpg");
   background-position: 89% 100%;
   background-repeat: no-repeat;
@@ -81,6 +86,11 @@ main{
   text-shadow: 4px 2px 0px rgb(0, 26, 255);
 /* text-shadow: rgb(46, 46, 46) 2px 3px; */
 
+}
+.ComoLlegar img{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 

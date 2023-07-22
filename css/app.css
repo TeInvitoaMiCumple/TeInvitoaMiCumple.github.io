@@ -33,58 +33,6 @@
   /* vertical-align: baseline; */
 }
 
-
-
-
-
-
-/* 
- body {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-
-  background-color: #f7e481;
-  flex-direction: column;
-
-}  
-
-
-
-body {
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 100vh;
-  background-color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  padding-top: 20px;
-
-
-  -webkit-background-size: cover;
-  background-size:contain;
-  background-position: center center;
-}*/
-
-
-
-/* comentado 06-03 
-main{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%; 
-    justify-content: center;
-  
-  align-items: center;
-  background-image: url(/img/pxfuel.jpg);
-  background-position: center;
-
-} */
-
-
 .header{
   position:absolute;
   top: 0;
@@ -219,15 +167,16 @@ height: 750px;
   background-size: cover; 
   /* margin-top: 70px; */
 } 
-
+/* 
 .inicio img{
 margin-bottom: -119%;
-}
+} */
 
 @media(max-width:400px){
 
   .inicio img{
-    margin-bottom: -117%;
+    /* margin-bottom: -117%; */
+    margin-top: 12px;
     }  
   .flecha-continuar{
     display: none;
@@ -283,6 +232,16 @@ margin-bottom: -119%;
   .cuenta{
     margin-top: 209px;
   }
+  .ComoLlegar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .ComoLlegar img{
+    width: 60%;
+
+  }
 
 
 } 
@@ -315,6 +274,13 @@ margin-bottom: -119%;
 
 } 
 
+@media(max-width:360px)
+{
+  .inicio .separador{
+    margin-bottom: -588px;
+
+  }
+}
 
 /* .inicio img {
   width: 100%;
