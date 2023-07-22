@@ -269,6 +269,12 @@ margin-bottom: -104%;
 
 } 
 
+@media(max-width:800px){
+  div > img.separador1{
+    background-color: #083f68;
+  }
+} 
+
 
 /* .inicio img {
   width: 100%;
