@@ -6,7 +6,7 @@
   --text-color: black;
   --navbar-shallow-color: #e5e5e5;
   --menu-mobile-background-color: #3a4460;
-  --background-color:#a0f2fd;
+  --background-color:#0084ff;
 
   /* --theme-color: #db6163;
   --primary-color: #124f88;
@@ -26,6 +26,7 @@
 }
 main{
   /* background-image: url("/img/fondo1.jpg"); */
+  background-color: #029ce6;
 
 
 
@@ -34,7 +35,7 @@ main{
   /* background-color: var(--background-color); */
 }
 .contenedor{
-  background-color: #029ce6;
+  background-color: #029ce6; 
   background-image: url("/img/fondo1.jpg");
   background-position: 89% 100%;
   background-repeat: no-repeat;
@@ -67,6 +68,20 @@ main{
   background-size:cover; 
 }
 
+.cuantofalta{
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: "Lilita One";
+  margin: 0px;
+  font-size: 1.8em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 2px 0px rgb(0, 26, 255);
+/* text-shadow: rgb(46, 46, 46) 2px 3px; */
+
+}
 
 
 .asistencia{
@@ -267,7 +282,7 @@ ul li label{
 }
 
 ul li:hover label{
-	color:blue;
+	color:red;
 }
 
 ul li .check{
@@ -303,7 +318,7 @@ ul li .check::before {
 }
 
 input[type=radio]:checked ~ .check {
-  border: 5px solid blue;
+  border: 5px solid red;
 }
 
 input[type=radio]:checked ~ .check::before{
@@ -311,7 +326,7 @@ input[type=radio]:checked ~ .check::before{
 }
 
 input[type=radio]:checked ~ label{
-  color: blue;
+  color: red;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
@@ -482,7 +497,7 @@ a {
 
 .boton{
   /* margin-top: 20px; */
-  margin-top: -15px;
+  /* margin-top: -15px; */
   padding-bottom: 20px;
 }
 iframe{
@@ -681,7 +696,7 @@ button .btn-primary{
 .fotofinal{
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 1px 1px 0px 1px;
   
 }
 .imagen_dress{
@@ -843,8 +858,8 @@ button .btn-primary{
     margin: 0px;
     font-size: 1.8em;
     text-align: center;
-    color: blue;
-    text-shadow: 4px 2px 0px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 2px 0px rgb(0, 26, 255);
   /* text-shadow: rgb(46, 46, 46) 2px 3px; */
   
   }
@@ -881,7 +896,7 @@ button .btn-primary{
   }
 
 .separador1 {
-    margin-top: -29%;
+    /* margin-top: -29%; */
     margin-bottom: -30%;
   }
   
@@ -1013,7 +1028,7 @@ section, .vacio{
 .cuantofalta, h5{
   font-size: 2.8em;
   /* color: black; */
-  text-shadow: 2px 1px 0px white;
+  /* text-shadow: 2px 1px 0px white; */
 
 }
 
