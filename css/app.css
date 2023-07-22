@@ -227,7 +227,7 @@ margin-bottom: -104%;
 @media(max-width:400px){
 
   .inicio img{
-    margin-bottom: -106%;
+    margin-bottom: -117%;
     }  
   .flecha-continuar{
     display: none;
@@ -253,7 +253,8 @@ margin-bottom: -104%;
     justify-content:center;
     align-items: center;
     font-family: "Lilita One";
-    margin: 0px;
+    margin-top: 131px;
+    margin-bottom: -227px;
     font-size: 1.1em;
     text-align: center;
     color: blue;
@@ -264,6 +265,23 @@ margin-bottom: -104%;
     font-size: 1.3em;
     text-shadow: -3px -2px 1px rgb(255, 255, 255);
     margin: auto;
+  }
+  .titulo1 >h1{
+    display: none;
+  }
+  .titulo2 >h2{
+    display: none;
+  }
+  .nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nombre >img{
+    margin-top: -303px;
+  }
+  .cuenta{
+    margin-top: 209px;
   }
 
 
