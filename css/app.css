@@ -221,7 +221,7 @@ height: 750px;
 } 
 
 .inicio img{
-margin-bottom: -104%;
+margin-bottom: -119%;
 }
 
 @media(max-width:400px){
@@ -291,6 +291,28 @@ margin-bottom: -104%;
   div > img.separador1{
     background-color: #083f68;
   }
+  .inicio img{
+    margin-bottom: -140%;
+  }
+
+  .cuantofalta h3{
+    margin-top: -96px;
+    margin-bottom: -227px;
+  }
+  .nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nombre >img{
+    margin-top: -650px;
+  }
+
+  .cuenta{
+    margin-top: 104px;
+  }
+
+
 } 
 
 
